@@ -16,7 +16,7 @@ dl.on('progress', (progress) => {
   console.log(progress.percent.toFixed(2));
 });
 
-dl.on('error', (path) => {
+dl.on('complete', (path) => {
   console.log(path);
 });
 
