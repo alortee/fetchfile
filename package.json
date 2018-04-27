@@ -1,0 +1,21 @@
+{
+  "name": "fetchfile",
+  "version": "0.0.1",
+  "description": "an event styled nodejs file downloader with checks for file size and type",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodejs example.js",
+    "watch": "nodemon example.js",
+    "lint": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "file",
+    "download",
+    "limit"
+  ],
+  "author": "",
+  "license": "ISC"
+}
